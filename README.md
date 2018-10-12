@@ -1,4 +1,4 @@
-# Website
+# Website Theme Repository
 
 Theme files used on Voxco website. https://voxco.com
 
