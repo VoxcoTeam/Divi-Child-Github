@@ -591,7 +591,11 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 /* -------------------------------------------- */
 #case-study h5 {
 	font-family: Nunito, arial, sans-serif;
-	font-size: 15px;
+	font-size: 24px;
+}
+
+#case-study blockquote {
+	border: #2068b5;
 }
 
 
