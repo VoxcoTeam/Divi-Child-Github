@@ -22,7 +22,6 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php $template_directory_uri = get_template_directory_uri(); ?>
-	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6356196/6648992/css/fonts.css" />
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( $template_directory_uri . '/js/html5.js"' ); ?>" type="text/javascript"></script>
 	<![endif]-->
@@ -33,6 +32,8 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+	<!-- Google TAG Manager -->
+	<?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
 <?php
 	$product_tour_enabled = et_builder_is_product_tour_enabled();
 	$page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : ''; ?>
@@ -214,24 +215,7 @@
 				<div class="logo_container">
 					<span class="logo_helper"></span>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<?php
-						    $currentlang = get_bloginfo('language');
-						    if($currentlang=="en-CA"):
-						?>
 						<img src="/wp-content/themes/Divi-child/images/logo.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
-
-						<?php elseif($currentlang=="fr-CA"): ?>
-						<img src="/wp-content/themes/Divi-child/images/logo-voxco-fr.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
-
-						<?php elseif($currentlang=="es-ES"): ?>
-						<img src="/wp-content/themes/Divi-child/images/logo-voxco-sp.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
-
-						<?php elseif($currentlang=="en-US"): ?>
-						<img src="/wp-content/themes/Divi-child/images/logo-voxco-sp.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
-
-						<?php elseif($currentlang=="de-DE"): ?>
-						<img src="/wp-content/themes/Divi-child/images/logo-voxco-de.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
-						<?php endif; ?>
 					</a>
 				</div>
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">

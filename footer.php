@@ -32,21 +32,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				<div id="footer-bottom">
 					<div class="container clearfix">
 						<p id="footer-info">
-							<?php
-						    $currentlang = get_bloginfo('language');
-						    if($currentlang=="en-CA"):
-						?>
 							© 2018 Voxco.  All rights reserved.
-						<?php elseif($currentlang=="fr-CA"): ?>
-							© 2018 Voxco.  Tous droits réservés.
-						<?php elseif($currentlang=="es-ES"): ?>
-							© 2018 Voxco. Todos los derechos reservados.
-						<?php elseif($currentlang=="en-US"): ?>
-							© 2018 Voxco. Todos los derechos reservados.
-						<?php elseif($currentlang=="de-DE"): ?>
-							© 2018 Voxco. Alle Rechte vorbehalten.
-						<?php endif; ?>
-
 						</p>
 				<?php
 					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
@@ -81,5 +67,21 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	</div> <!-- #page-container -->
 
 	<?php wp_footer(); ?>
+
+	<script type="text/javascript">
+		piAId = '19452';
+		piCId = '1441';
+		piHostname = 'pi.pardot.com';
+
+		(function() {
+			function async_load(){
+				var s = document.createElement('script'); s.type = 'text/javascript';
+				s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+				var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+			}
+			if(window.attachEvent) { window.attachEvent('onload', async_load); }
+			else { window.addEventListener('load', async_load, false); }
+		})();
+</script>
 </body>
 </html>

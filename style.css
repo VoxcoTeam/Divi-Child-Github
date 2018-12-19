@@ -45,7 +45,7 @@
 }
 
 .gotham {
-	font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", arial, sans-serif;
+	font-family: Nunito, arial, sans-serif;
 	font-weight: 300;
 } 
 
@@ -54,7 +54,7 @@
 }
 
 h2, h3, h4 {
-	font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", arial, sans-serif;
+	font-family: Nunito, arial, sans-serif;
 	line-height: 1.2em;
 }  
 
@@ -67,7 +67,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 /* -------------------------------------------- */
 #et-secondary-nav li ul, #top-header {
 	background-color: #2068b5;
-	font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", arial, sans-serif;
+	font-family: Nunito, arial, sans-serif;
 }
 
 #et-secondary-nav li ul {
@@ -81,7 +81,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 /* -------------------- NAV ------------------- */
 /* -------------------------------------------- */
 .nav {
-	font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", arial, sans-serif;
+	font-family: Nunito, arial, sans-serif;
 	font-weight: 300;
 }
 
@@ -104,7 +104,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 }
 
 #top-menu-nav #top-menu a {
-  font-size: 14px;
+  font-size: 15px;
   padding-right: 0px;
   line-height: 130%;
 }
@@ -128,7 +128,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 
 @media (max-width: 1225px) {
 	#top-menu-nav #top-menu a {
-	  font-size: 12px;
+	  font-size: 13px;
 	}
 
 	.et_header_style_left #et-top-navigation nav>ul>li>a {
@@ -138,7 +138,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 
 @media (max-width: 1110px) {
 	#top-menu-nav #top-menu a {
-	  font-size: 10px;
+	  font-size: 11px;
 	}
 
 	.et_header_style_left #et-top-navigation nav>ul>li>a {
@@ -364,8 +364,9 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 .et_pb_fullwidth_section.cta-conversation-section .et_pb_fullwidth_header .et_pb_fullwidth_header_container h1,
 .et_pb_fullwidth_section.cta-footer-banner .et_pb_fullwidth_header .et_pb_fullwidth_header_container h1,
 .et_pb_fullwidth_section.cta-bigarrow-banner .et_pb_fullwidth_header .et_pb_fullwidth_header_container h1 {
-  font-size: 1.25rem;
+  font-size: 25px;
   color: #fff;
+  font-weight: 700;
 }
 .et_pb_fullwidth_section.cta-conversation-section .et_pb_fullwidth_header .et_pb_fullwidth_header_container .et_pb_fullwidth_header_subhead,
 .et_pb_fullwidth_section.cta-footer-banner .et_pb_fullwidth_header .et_pb_fullwidth_header_container .et_pb_fullwidth_header_subhead,
@@ -535,7 +536,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 
 #watchVideoMultiBtn a.videoLink {
 	color: #FFF;
-	font-size: 15px;
+	font-size: 16px;
 	background-color: #2068b5;
 	padding: 10px 15px;
 	border-radius: 10px;
@@ -591,7 +592,7 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 /* -------------------------------------------- */
 footer#main-footer {
   background-color: #f2f2f2;
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", arial, sans-serif;
+  font-family: Nunito, arial, sans-serif;
 
 }
 footer#main-footer #footer-widgets .footer-widget li {
@@ -607,7 +608,7 @@ footer#main-footer #footer-widgets .footer-widget li.menu-item {
 footer#main-footer #footer-widgets .footer-widget li a {
   color: #555555;
   font-size: 120%;
-  font-weight: 500;
+  font-weight: 700;
 }
 footer#main-footer #footer-widgets .footer-widget li a:hover {
   color: #555555 !important;
@@ -623,13 +624,13 @@ footer#main-footer #footer-widgets .footer-widget li .sub-menu li {
 }
 footer#main-footer #footer-widgets .footer-widget li .sub-menu a {
   font-weight: 300;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 footer#main-footer #footer-widgets .footer-widget .socials li {
   padding-bottom: 1.4375rem;
 }
 footer#main-footer #footer-widgets .footer-widget .socials a {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 0.875em;
   line-height: 18px;
   padding-left: 50px;
