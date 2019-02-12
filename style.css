@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*
- Theme Name:   Divi Child Github Theme
+ Theme Name:   Divi Child Theme
  Theme URI:    http://elegantthemes.com/
- Description:  Divi Child Github Theme
+ Description:  Divi Child Theme
  Author:       ElegantThemes
  Author URI:   http://elegantthemes.com
  Template:     Divi
@@ -10,7 +10,7 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
- Text Domain:  Divi-Child-Github
+ Text Domain:  divi-child-theme
 */
 @font-face {
   font-family: "icomoon";
@@ -58,7 +58,7 @@ h2, h3, h4 {
 	line-height: 1.2em;
 }  
 
-h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
+h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong {
 	font-weight: 700;
 } 
 
@@ -586,19 +586,6 @@ h2 b, h3 b, h4 b,h2 strong, h3 strong, h4 strong, {
 	padding-bottom: 10px;
 }
 
-/* -------------------------------------------- */
-/* --------------- Case Studies --------------- */
-/* -------------------------------------------- */
-.client-stories h5 {
-	font-family: Nunito, arial, sans-serif;
-	font-size: 24px;
-	padding-top: 30px;
-}
-
-.client-stories blockquote {
-	border-color: #2068b5;
-}
-
 
 /* -------------------------------------------- */
 /* ------------------ Footer ------------------ */
@@ -684,4 +671,66 @@ footer#main-footer #footer-bottom {
 	}
 }
 
+
+/* ARCHIVE PAGE 2019 */
+.archive-page .et_pb_section.et_pb_section_0{
+	background: #2068b5!important;
+    padding: 0;
+}
+
+.archive-page .et_pb_ajax_pagination_container{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap; 
+}
+
+.archive-page .et_pb_post .entry-title{
+	font-size: 22px!important;
+}
+
+.archive-page .et_pb_blog_grid .et_pb_post{
+	border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    border-width: 0px;
+    background-color: #f8f8f8;
+}
+
+.archive-page .et_pb_post {
+    width: 45.758%;
+    margin-right: 8.483%;
+}
+
+.archive-page .et_pb_post .entry-featured-image-url img{
+    width: 100%;
+}
+
+.archive-page .et_pb_post .post-meta {
+    font-size: 12px !important;
+}
+
+.archive-page .et_pb_post .read-more {
+    display: block;
+}
+
+.archive-page .et_pb_post:nth-child(2n+2) {
+	margin-right: 0;
+}
+
+.archive-page .pagination {
+	width: 100%;
+}
+
+.archive-page .header-content .et_pb_module_header{
+	    font-size: 55px;
+    color: #ffffff!important;
+}
+
+@media( max-width:767px){
+	.archive-page .et_pb_post {
+	    width: 100% !important;
+	    margin-right: 0;
+	}
+}
 /*# sourceMappingURL=style.css.map */

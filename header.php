@@ -215,7 +215,7 @@
 				<div class="logo_container">
 					<span class="logo_helper"></span>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="/wp-content/themes/Divi-Child-Github/images/logo.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
+						<img src="/wp-content/themes/Divi-child/images/logo.png" alt="Voxco" id="logo" data-height-percentage="54" data-actual-width="147" data-actual-height="59">
 					</a>
 				</div>
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
