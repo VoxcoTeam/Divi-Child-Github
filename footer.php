@@ -32,7 +32,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				<div id="footer-bottom">
 					<div class="container clearfix">
 						<p id="footer-info">
-							© 2018 Voxco.  All rights reserved.
+							© 2019 Voxco.  All rights reserved.
 						</p>
 				<?php
 					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
